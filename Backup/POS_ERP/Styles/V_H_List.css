@@ -1,0 +1,82 @@
+﻿ul#navlist
+{
+	list-style-type: none;
+	position: relative;
+}
+
+ul#navlist li a
+{
+	background: transparent url(http://www.loudjoy.com/greenbullet.gif) left center no-repeat;
+	padding-left: 12px;
+	text-align: left;
+	font: bold 10px arial, verdana, lucida, sans-serif;
+	text-decoration: none;
+	color: #699;
+	line-height: 22px;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+ul#navlist li a:hover
+{
+	background: transparent url(http://www.loudjoy.com/greybullet.gif) left center no-repeat;
+	color: #666;
+}
+
+ul#navlist li a#current
+{
+	background: transparent url(http://www.loudjoy.com/greybullet.gif) left center no-repeat;
+	color: #666;
+}
+
+#navlist
+{
+	margin: 0 0 0 65px;
+	padding: 0;
+	text-align: left;
+}
+
+#intnavtable { width: 100%; }
+#intnavcell { width: 450px; }
+
+/*subnavlist */
+ul#subnavlist li
+{
+	display: inline;
+	list-style-type: none;
+	/*padding-left: 5px;*/
+	text-align :center;
+	font: bold 10px arial, verdana, sans-serif;
+	line-height: 22px;
+}
+
+#subnavlist a
+{
+	text-decoration: none;
+	color: #699;
+}
+
+#subnavlist a:hover
+{
+	text-decoration: none;
+	color: #666;
+}
+
+#subnavlist
+{
+	text-align: left;
+	margin: 0;
+	padding-left: 0;
+}
+
+ul#subnavlist li a#subcurrent { color: #666; }
+
+ul#navlist ul
+{
+	position: absolute;
+	top: 0;
+	left: 4em;
+}
+
+ul#navlist ul li a, ul#navlist ul li a:hover, ul#navlist ul li a#current { background-image: none; }
+

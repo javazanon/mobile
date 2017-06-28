@@ -1,0 +1,236 @@
+10/16/2016 00:40:31: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\database\model\CompanyBeans.cs:line 42
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)
+***********************
+10/16/2016 00:40:31: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\database\model\CompanyBeans.cs:line 42
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)
+***********************
+10/16/2016 00:40:31: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Column 'ID' in field list is ambiguous
+Source :MySql.Data
+Stack Trace :   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at POS_ERP.com.zanon.ERP.database.connection.ConnectionManager.select(String query, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\database\connection\ConnectionManager.cs:line 72
+TargetSite :MySql.Data.MySqlClient.MySqlPacket ReadPacket()
+***********************
+10/16/2016 00:40:31: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Column 'ID' in field list is ambiguous
+Source :MySql.Data
+Stack Trace :   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at POS_ERP.com.zanon.ERP.database.connection.ConnectionManager.select(String query, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\database\connection\ConnectionManager.cs:line 72
+TargetSite :MySql.Data.MySqlClient.MySqlPacket ReadPacket()
+***********************
+10/16/2016 00:40:31: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Thread was being aborted.
+Source :mscorlib
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at POS_ERP.pgs.account.login.Login_Click(Object sender, EventArgs e) in d:\projects\POS_ERP\POS_ERP\pgs\account\login.aspx.cs:line 73
+TargetSite :Void AbortInternal()
+***********************
+10/16/2016 00:40:31: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Thread was being aborted.
+Source :mscorlib
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at POS_ERP.pgs.account.login.Login_Click(Object sender, EventArgs e) in d:\projects\POS_ERP\POS_ERP\pgs\account\login.aspx.cs:line 73
+TargetSite :Void AbortInternal()
+***********************
+10/16/2016 00:41:50: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\database\model\CompanyBeans.cs:line 42
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)
+***********************
+10/16/2016 00:41:50: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\database\model\CompanyBeans.cs:line 42
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)
+***********************
+10/16/2016 00:41:50: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Column 'ID' in field list is ambiguous
+Source :MySql.Data
+Stack Trace :   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at POS_ERP.com.zanon.ERP.database.connection.ConnectionManager.select(String query, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\database\connection\ConnectionManager.cs:line 72
+TargetSite :MySql.Data.MySqlClient.MySqlPacket ReadPacket()
+***********************
+10/16/2016 00:41:50: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Column 'ID' in field list is ambiguous
+Source :MySql.Data
+Stack Trace :   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at POS_ERP.com.zanon.ERP.database.connection.ConnectionManager.select(String query, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\database\connection\ConnectionManager.cs:line 72
+TargetSite :MySql.Data.MySqlClient.MySqlPacket ReadPacket()
+***********************
+10/16/2016 00:41:51: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Thread was being aborted.
+Source :mscorlib
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at POS_ERP.pgs.account.login.Login_Click(Object sender, EventArgs e) in d:\projects\POS_ERP\POS_ERP\pgs\account\login.aspx.cs:line 73
+TargetSite :Void AbortInternal()
+***********************
+10/16/2016 00:41:51: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Thread was being aborted.
+Source :mscorlib
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.AbortCurrentThread()
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse, Boolean permanent)
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at POS_ERP.pgs.account.login.Login_Click(Object sender, EventArgs e) in d:\projects\POS_ERP\POS_ERP\pgs\account\login.aspx.cs:line 73
+TargetSite :Void AbortInternal()
+***********************
+10/16/2016 00:42:10: ******************************
+Error in Path :/pgs/inventory/Material_C.aspx
+Raw Url :/pgs/inventory/Material_C.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.Material_C.fillMaterialGroup() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\Material_C.aspx.cs:line 72
+TargetSite :Void fillMaterialGroup()
+***********************
+10/16/2016 00:42:10: ******************************
+Error in Path :/pgs/inventory/Material_C.aspx
+Raw Url :/pgs/inventory/Material_C.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.Material_C.fillMaterialGroup() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\Material_C.aspx.cs:line 72
+TargetSite :Void fillMaterialGroup()
+***********************
+10/16/2016 00:42:41: ******************************
+Error in Path :/pgs/inventory/Material_C.aspx
+Raw Url :/pgs/inventory/Material_C.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.Material_C.fillMaterialGroup() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\Material_C.aspx.cs:line 72
+TargetSite :Void fillMaterialGroup()
+***********************
+10/16/2016 00:42:41: ******************************
+Error in Path :/pgs/inventory/Material_C.aspx
+Raw Url :/pgs/inventory/Material_C.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.Material_C.fillMaterialGroup() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\Material_C.aspx.cs:line 72
+TargetSite :Void fillMaterialGroup()
+***********************
+10/16/2016 00:43:29: ******************************
+Error in Path :/pgs/inventory/Material_C.aspx
+Raw Url :/pgs/inventory/Material_C.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.Material_C.fillMaterialGroup() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\Material_C.aspx.cs:line 72
+TargetSite :Void fillMaterialGroup()
+***********************
+10/16/2016 00:43:29: ******************************
+Error in Path :/pgs/inventory/Material_C.aspx
+Raw Url :/pgs/inventory/Material_C.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.Material_C.fillMaterialGroup() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\Material_C.aspx.cs:line 72
+TargetSite :Void fillMaterialGroup()
+***********************
+10/16/2016 00:44:07: ******************************
+Error in Path :/pgs/inventory/Material_C.aspx
+Raw Url :/pgs/inventory/Material_C.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.Material_C.fillMaterialGroup() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\Material_C.aspx.cs:line 72
+TargetSite :Void fillMaterialGroup()
+***********************
+10/16/2016 00:44:07: ******************************
+Error in Path :/pgs/inventory/Material_C.aspx
+Raw Url :/pgs/inventory/Material_C.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.Material_C.fillMaterialGroup() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\Material_C.aspx.cs:line 72
+TargetSite :Void fillMaterialGroup()
+***********************

@@ -1,0 +1,360 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EB01F33B-F77B-4588-ADAE-C088682101A6}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>POS_ERP</RootNamespace>
+    <AssemblyName>POS_ERP</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MySql.Data, Version=6.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\mysql\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data.Entity, Version=6.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\mysql\MySql.Data.Entity.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Web, Version=6.3.0.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>lib\mysql\MySql.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>lib\logger\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="Telerik.Web.UI, Version=2012.1.411.35, Culture=neutral, PublicKeyToken=121fae78165ba3d4, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="images\beg.jpg" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\bootstrap.min.js" />
+    <Content Include="css\Images\1.png" />
+    <Content Include="css\Images\2.png" />
+    <Content Include="css\Images\3.png" />
+    <Content Include="css\Images\4.png" />
+    <Content Include="css\Images\attachment.png" />
+    <Content Include="css\Images\Background.jpg" />
+    <Content Include="css\Images\Buttons\outside_the_university_a.png" />
+    <Content Include="css\Images\Buttons\outside_the_university_b.png" />
+    <Content Include="css\Images\Buttons\Register_a.png" />
+    <Content Include="css\Images\Buttons\Register_b.png" />
+    <Content Include="css\Images\Buttons\University_employees_a.png" />
+    <Content Include="css\Images\Buttons\University_employees_b.png" />
+    <Content Include="css\Images\Buttons\University_student_a.png" />
+    <Content Include="css\Images\Buttons\University_student_b.png" />
+    <Content Include="css\Images\Company_Login.PNG" />
+    <Content Include="css\Images\Employee_Login.png" />
+    <Content Include="css\Images\footer.png" />
+    <Content Include="css\Images\footer_1.PNG" />
+    <Content Include="css\Images\footer_h.PNG" />
+    <Content Include="css\Images\Home.png" />
+    <Content Include="css\Images\Lock.png" />
+    <Content Include="css\Images\login.jpg" />
+    <Content Include="css\Images\L_footer.png" />
+    <Content Include="css\Images\nav.jpg" />
+    <Content Include="css\Images\New_Vendor.PNG" />
+    <Content Include="css\Images\Register.jpg" />
+    <Content Include="css\Images\r_footer.png" />
+    <Content Include="css\Images\TitAbout.jpg" />
+    <Content Include="css\Images\TitArchivNo.jpg" />
+    <Content Include="css\Images\TitArchivOk.jpg" />
+    <Content Include="css\Images\TitFollwingTrans.jpg" />
+    <Content Include="css\Images\TitGnrlSearch.jpg" />
+    <Content Include="css\Images\TitLogin.jpg" />
+    <Content Include="css\Images\TItMyProfile.jpg" />
+    <Content Include="css\Images\TitMyTrans.jpg" />
+    <Content Include="css\Images\TitRegister.jpg" />
+    <Content Include="css\Images\TitSubmitReq.jpg" />
+    <Content Include="css\old_beg.jpg" />
+    <Content Include="css\singin.css" />
+    <Content Include="css\Site.css" />
+    <Content Include="css\style.css" />
+    <Content Include="css\V_H_List.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\ajax-loader.gif" />
+    <Content Include="images\Background.jpg" />
+    <Content Include="images\bg.png" />
+    <Content Include="images\calendar.gif" />
+    <Content Include="images\header_finance.jpg" />
+    <Content Include="images\hedar.jpg" />
+    <Content Include="images\KAU_logo.jpg" />
+    <Content Include="images\print.jpg" />
+    <Content Include="images\Untitled.jpg" />
+    <Content Include="images\xml_export.png" />
+    <Content Include="lib\logger\NLog.dll" />
+    <Content Include="lib\mysql\MySql.Data.CF.dll" />
+    <Content Include="lib\mysql\MySql.Data.dll" />
+    <Content Include="lib\mysql\MySql.Data.Entity.dll" />
+    <Content Include="lib\mysql\MySql.Web.dll" />
+    <Content Include="Menu\Data\menuContent.xml" />
+    <Content Include="pgs\home\index.aspx" />
+    <Content Include="pgs\home\login.aspx" />
+    <Content Include="pgs\home\logout.aspx" />
+    <Content Include="pgs\inventory\Material_C.aspx" />
+    <Content Include="pgs\inventory\material_card.aspx" />
+    <Content Include="pgs\inventory\material_price.aspx" />
+    <Content Include="pgs\inventory\material_transaction.aspx" />
+    <Content Include="pgs\inventory\matr_mov.aspx" />
+    <Content Include="pgs\invoices\displayInvoice.aspx" />
+    <Content Include="pgs\order\OrderRequest.aspx" />
+    <Content Include="Scripts\Grd_inside_Grd_Script.js" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Scripts\jquery.js" />
+    <Content Include="Scripts\menu.js" />
+    <Content Include="Styles\Images\1.png" />
+    <Content Include="Styles\Images\2.png" />
+    <Content Include="Styles\Images\3.png" />
+    <Content Include="Styles\Images\4.png" />
+    <Content Include="Styles\Images\attachment.png" />
+    <Content Include="Styles\Images\Background.jpg" />
+    <Content Include="Styles\Images\Buttons\outside_the_university_a.png" />
+    <Content Include="Styles\Images\Buttons\outside_the_university_b.png" />
+    <Content Include="Styles\Images\Buttons\Register_a.png" />
+    <Content Include="Styles\Images\Buttons\Register_b.png" />
+    <Content Include="Styles\Images\Buttons\University_employees_a.png" />
+    <Content Include="Styles\Images\Buttons\University_employees_b.png" />
+    <Content Include="Styles\Images\Buttons\University_student_a.png" />
+    <Content Include="Styles\Images\Buttons\University_student_b.png" />
+    <Content Include="Styles\Images\Company_Login.PNG" />
+    <Content Include="Styles\Images\Employee_Login.png" />
+    <Content Include="Styles\Images\footer.png" />
+    <Content Include="Styles\Images\footer_1.PNG" />
+    <Content Include="Styles\Images\footer_h.PNG" />
+    <Content Include="Styles\Images\Home.png" />
+    <Content Include="Styles\Images\Lock.png" />
+    <Content Include="Styles\Images\login.jpg" />
+    <Content Include="Styles\Images\L_footer.png" />
+    <Content Include="Styles\Images\nav.jpg" />
+    <Content Include="Styles\Images\New_Vendor.PNG" />
+    <Content Include="Styles\Images\Register.jpg" />
+    <Content Include="Styles\Images\r_footer.png" />
+    <Content Include="Styles\Images\TitAbout.jpg" />
+    <Content Include="Styles\Images\TitArchivNo.jpg" />
+    <Content Include="Styles\Images\TitArchivOk.jpg" />
+    <Content Include="Styles\Images\TitFollwingTrans.jpg" />
+    <Content Include="Styles\Images\TitGnrlSearch.jpg" />
+    <Content Include="Styles\Images\TitLogin.jpg" />
+    <Content Include="Styles\Images\TItMyProfile.jpg" />
+    <Content Include="Styles\Images\TitMyTrans.jpg" />
+    <Content Include="Styles\Images\TitRegister.jpg" />
+    <Content Include="Styles\Images\TitSubmitReq.jpg" />
+    <Content Include="Styles\Site.css" />
+    <Content Include="Styles\V_H_List.css" />
+    <Content Include="Web.config" />
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="com\zanon\ERP\beans\AuthorizationMatrixBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\CompanyBeans.cs" />
+    <Compile Include="com\zanon\ERP\beans\CurrencyBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\CustomerBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\CustomerGroupBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\DeliveryMethodBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\FiscalBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\FiscalPeriodBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\InventoryBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\MaterialBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\MaterialCardBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\materialGroupBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\MaterialMovementBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\MaterialPriceBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\MeasureBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\MovementsBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\NumberRangeBeans.cs" />
+    <Compile Include="com\zanon\ERP\beans\ShoppingCart.cs" />
+    <Compile Include="com\zanon\ERP\beans\ShoppingLineItemBean.cs" />
+    <Compile Include="com\zanon\ERP\beans\UserProfile.cs" />
+    <Compile Include="com\zanon\ERP\config\MaterialMovementTypeKeys.cs" />
+    <Compile Include="com\zanon\ERP\config\ObjectTypeKeys.cs" />
+    <Compile Include="com\zanon\ERP\config\SessionKeys.cs" />
+    <Compile Include="com\zanon\ERP\database\ConnectionManager.cs" />
+    <Compile Include="com\zanon\ERP\logging\EventLogLogger.cs" />
+    <Compile Include="com\zanon\ERP\logging\ILogger.cs" />
+    <Compile Include="com\zanon\ERP\logging\LogUtility.cs" />
+    <Compile Include="com\zanon\ERP\logging\NLogLogger.cs" />
+    <Compile Include="com\zanon\ERP\util\AlertScript.cs" />
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="master\finance.Master.cs">
+      <DependentUpon>finance.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\finance.Master.designer.cs">
+      <DependentUpon>finance.Master</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\home\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\home\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\home\login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\home\login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\home\logout.aspx.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\home\logout.aspx.designer.cs">
+      <DependentUpon>logout.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\inventory\Material_C.aspx.cs">
+      <DependentUpon>Material_C.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\inventory\Material_C.aspx.designer.cs">
+      <DependentUpon>Material_C.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\inventory\material_card.aspx.cs">
+      <DependentUpon>material_card.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\inventory\material_card.aspx.designer.cs">
+      <DependentUpon>material_card.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\inventory\material_price.aspx.cs">
+      <DependentUpon>material_price.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\inventory\material_price.aspx.designer.cs">
+      <DependentUpon>material_price.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\inventory\material_transaction.aspx.cs">
+      <DependentUpon>material_transaction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\inventory\material_transaction.aspx.designer.cs">
+      <DependentUpon>material_transaction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\inventory\matr_mov.aspx.cs">
+      <DependentUpon>matr_mov.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\inventory\matr_mov.aspx.designer.cs">
+      <DependentUpon>matr_mov.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\invoices\displayInvoice.aspx.cs">
+      <DependentUpon>displayInvoice.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\invoices\displayInvoice.aspx.designer.cs">
+      <DependentUpon>displayInvoice.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="pgs\order\OrderRequest.aspx.cs">
+      <DependentUpon>OrderRequest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="pgs\order\OrderRequest.aspx.designer.cs">
+      <DependentUpon>OrderRequest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Logs\" />
+    <Folder Include="pgs\help\" />
+    <Folder Include="pgs\information\" />
+    <Folder Include="pgs\purchasing\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="css\Images\Buttons\Thumbs.db" />
+    <None Include="css\Images\Buttons\vssver2.scc" />
+    <None Include="css\Images\Thumbs.db" />
+    <None Include="images\Thumbs.db" />
+    <Content Include="master\finance.Master" />
+    <None Include="lib\mysql\MySql.Data.InstallState" />
+    <None Include="lib\mysql\MySql.Web.InstallState" />
+    <Content Include="NLog.config" />
+    <None Include="Styles\Images\Buttons\Thumbs.db" />
+    <None Include="Styles\Images\Buttons\vssver2.scc" />
+    <None Include="Styles\Images\Thumbs.db" />
+    <None Include="Styles\Images\vssver2.scc" />
+    <None Include="Styles\vssver2.scc" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>2266</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

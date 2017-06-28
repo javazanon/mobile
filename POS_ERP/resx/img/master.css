@@ -1,0 +1,557 @@
+
+body { background:#ffffff !important ;  }
+
+.inner-banner {
+	BACKGROUND-IMAGE: url(../images/inner-banner1.jpg) !important ; BORDER-BOTTOM: 0px !important ; BORDER-LEFT: 0px !important ; WIDTH: 980px !important ; HEIGHT: 68px !important ; BORDER-TOP: 0px !important ; BORDER-RIGHT: 0px
+}
+
+.inner-heading {
+	font-family: Sakkal Majalla!important ;
+	font-size: 18px !important ;
+	font-weight: bold !important ;
+	color: #2d7424 !important ;
+	text-decoration:none !important ;
+}
+
+.counter {
+font-family:Helvetica !important ; 
+font-size: 19px !important ;
+font-style:italic !important ;
+color: #FFFFFF !important ; 
+height:22px !important ; 
+letter-spacing:7px !important ; 
+background-image:url('../images/counter.gif') !important ;
+text-align:left !important ;
+
+}
+@font-face {
+  font-family: 'DroidArabicKufiBold';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../font/DroidKufi-Bold.eot');
+  src: url('../font/DroidKufi-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../font/DroidKufi-Bold.woff2') format('woff2'),
+       url('../font/DroidKufi-Bold.woff') format('woff'),
+       url('../font/DroidKufi-Bold.ttf') format('truetype');
+}
+
+.gridview{
+    background-color:#fff;
+   
+   padding:2px;
+   margin:2% auto;
+    font-family: "Simplified Arabic";
+    font-size: medium;
+    font-weight: 700;
+    color: #000000;
+}
+.gridview a{
+  margin:auto 1%;
+    border-radius:50%;
+      background-color:#444;
+      padding:5px 10px 5px 10px;
+      color:#fff;
+      text-decoration:none;
+      -o-box-shadow:1px 1px 1px #111;
+      -moz-box-shadow:1px 1px 1px #111;
+      -webkit-box-shadow:1px 1px 1px #111;
+      box-shadow:1px 1px 1px #111;
+    
+     
+}
+
+.rounded_corners
+    {
+        border: 1px solid #A1DCF2;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        overflow: hidden;
+    text-align: center;
+    font-family: "hacen Saudi Arabia";
+}
+    .rounded_corners td, .rounded_corners th
+    {
+        border: 1px solid #A1DCF2;
+        font-family: Sakkal Majalla;
+        font-size: 16pt;
+        text-align: center;
+    font-weight: 700;
+}
+    .rounded_corners table table td
+    {
+        border-style: none;
+    }
+    .rounded_corners1
+    {
+        border: 1px solid #449d44;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        overflow: hidden;
+    text-align: center;
+    width: 994px;
+}
+    .rounded_corners1 td, .rounnded_corners th
+    {
+        border: 1px solid #A1DCF2;
+        font-family: Arial;
+        font-size: 10pt;
+        text-align: center;
+    font-weight: 700;
+}
+    .rounded_corners1 table table td
+    {
+        border-style: none;
+    }
+
+.counter-en {
+font-family:Helvetica !important ; 
+font-size: 19px !important ;
+font-style:italic !important ;
+color: #FFFFFF !important ; 
+height:22px !important ; 
+letter-spacing:7px !important ; 
+background-image:url('../images/counter.gif') !important ;
+text-align:right !important ;
+
+}
+
+.countertxt
+{
+    font-family:Tahoma !important ; 
+    font-size: 12px !important ;
+    font-weight:bold !important ;
+    color:#6C6C6C !important ;
+    text-align:left !important ;
+}
+
+.countertxt-en
+{
+    font-family:Sakkal Majalla !important ; 
+    font-size: 12px !important ;
+    font-weight:bold !important ;
+    color:#6C6C6C !important ;
+    text-align:right !important ;
+}
+
+.searchbox
+{
+   background-color:transparent !important ;
+    border:0px none transparent !important ;
+    vertical-align:top !important ;
+}
+
+.headersection {
+	BACKGROUND-IMAGE: url(../images/top-banner.jpg) !important ; BORDER-BOTTOM: 0px !important ; BORDER-LEFT: 0px !important ; WIDTH: 980px !important ; HEIGHT: 100px !important ; BORDER-TOP: 0px !important ; BORDER-RIGHT: 0px
+}
+
+.nav-bg {
+	BACKGROUND-IMAGE: url(../images/nav-bar.gif) !important ; BORDER-BOTTOM: 0px !important ; BORDER-LEFT: 0px !important ; WIDTH: 1px !important ; HEIGHT: 29px !important ; BORDER-TOP: 0px !important ; BORDER-RIGHT: 0px
+}
+
+.nav-bg1 {
+	background-image: url('../images/nav-bar.gif') !important ;
+}
+
+.container1
+{background:#ffffff !important ; color:#fff !important ; margin:0 0px !important ;}
+.rtopp, .rbottomm{
+display:block !important ;
+background:#ececec !important ;
+
+}
+ .rtopp *, .rbottomm *{
+display: block !important ;
+height: 1px !important ;
+overflow: hidden !important ;
+background:#ffffff !important ;
+
+}
+ .r11{margin: 0 5px}
+ .r22{margin: 0 3px}
+ .r33{margin: 0 2px}
+ .r44{
+margin: 0 1px !important ;
+height: 2px !important ;
+}
+
+.container2
+{background:#ececec !important ; color:#fff !important ; margin:0 5px !important ;}
+.rtop, .rbottom{
+display:block !important ;
+background:#ffffff !important ;
+
+}
+ .rtop *, .rbottom *{
+display: block !important ;
+height: 1px !important ;
+overflow: hidden !important ;
+background:#ececec !important ;
+
+}
+ .r1{margin: 0 5px}
+ .r2{margin: 0 3px}
+ .r3{margin: 0 2px}
+ .r4{
+margin: 0 1px !important ;
+height: 2px !important ;
+}
+
+.container3
+{
+ background:#242424; color:#fff; margin:0 0px;}
+
+.rtoppp, .rbottommm{
+display:block;
+background:#e8e8e8;
+}
+
+.rtoppp *, .rbottommm *{
+display: block;
+height: 1px;
+overflow: hidden;
+background:#242424;
+}
+ .r12{margin: 0 5px}
+ .r23{margin: 0 3px}
+ .r34{margin: 0 2px}
+ .r45{
+margin: 0 1px !important ;
+height: 2px !important ;
+}
+
+.container4
+{background:#ffffff !important ; color:Black !important ; margin:0 0px !important ;}
+.rtop1, .rbottom1{
+display:block !important ;
+background:#ececec !important ;
+
+}
+@font-face {
+  font-family: 'DroidArabicKufiBold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/DroidKufi-Bold.eot');
+  src: url('../fonts/DroidKufi-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/DroidKufi-Bold.woff2') format('woff2'),
+       url('../fonts/DroidKufi-Bold.woff') format('woff'),
+       url('../fonts/DroidKufi-Bold.ttf') format('truetype');
+}
+ .rtop1 *, .rbottom1 *{
+display: block !important ;
+height: 1px !important ;
+overflow: hidden !important ;
+background:#ffffff !important ;
+
+}
+ .r111{margin: 0 5px}
+ .r222{margin: 0 3px}
+ .r333{margin: 0 2px}
+ .r444{
+margin: 0 1px !important ;
+height: 2px !important ;
+}
+
+
+a.right-nav {
+	font-family: Sakkal Majalla !important ;
+	font-size: 13px !important ;
+	font-weight: bold !important ;
+	color: #000000 !important ;
+	text-decoration:none !important ;
+}
+
+a.main-links {
+	font-family: Sakkal Majalla !important ;
+	font-size: 12px !important ;
+	font-weight: bold !important ;
+	color: #000000 !important ;
+	text-decoration:none !important ;
+}
+
+a.top-links {
+	font-family: Sakkal Majalla !important ;
+	font-size: 13px !important ;
+	font-weight: bold !important ;
+	color: #ffffff !important ;
+	text-decoration:none !important ;
+}
+
+a.bottom-links {
+	font-family: Sakkal Majalla !important ;
+	font-size: 12px !important ;
+	font-weight: bold !important ;
+	color: #ffffff !important ;
+	text-decoration:none !important ;
+}
+
+.bottom-text {
+	font-family: Sakkal Majalla !important ;
+	font-size: 12px !important ;
+	font-weight: bold !important ;
+	color: #ffffff !important ;
+	text-decoration:none !important ;
+}
+
+ .r222{margin: 0 3px;
+    height: 25px;
+}
+ Arial !important ;
+
+ .r444{
+margin: 0 1px !important;
+height: 29px !important;
+}
+
+
+#425702 !important ;
+	text-decoration:none !important ;
+}
+
+.time {
+	font-family: Sakkal Majalla !important ;
+	font-size: 15px !important ;
+	font-weight: bold !important ;
+	color: #773200 !important ;
+	text-decoration:none !important ;
+}
+
+.news {
+	font-family: Sakkal Majalla !important ;
+	font-size: 15px !important ;
+	font-weight: bold !important ;
+	color: #5c5c5c !important ;
+	text-decoration:none !important ;
+}
+
+a.news-heading {
+	font-family: Sakkal Majalla !important ;
+	font-size: 12px !important ;
+	font-weight: bold !important ;
+	color: #686868 !important ;
+	text-decoration:none !important ;
+}
+
+
+.news-top {
+	background-image: url('../images/news-top.gif') !important ;
+	height:35px !important ;
+}
+
+.news-bg {
+	background-image: url('../images/bg-news.gif') !important ;
+	
+}
+
+.KAU-style1 {
+	background-color: #FFFFFF !important ;
+}
+.KAU-style2 {
+	text-align: left !important ;
+}
+.KAU-style3 {
+	vertical-align: bottom !important ;
+}
+.KAU-style4 {
+	text-align: right !important ;
+}
+
+.news-bg {
+	background-image: url('images/bg-news.gif') !important ;
+	
+}
+
+
+
+.headersection-en {
+	BACKGROUND-IMAGE: url(../images/top-banner-en.jpg) !important ; BORDER-BOTTOM: 0px !important ; BORDER-LEFT: 0px !important ; WIDTH: 980px !important ; HEIGHT: 100px !important ; BORDER-TOP: 0px !important ; BORDER-RIGHT: 0px
+}
+
+
+.inner-banner-en {
+	BACKGROUND-IMAGE: url(inner-banner1-en.jpg) !important ; BORDER-BOTTOM: 0px !important ; BORDER-LEFT: 0px !important ; WIDTH: 980px !important ; HEIGHT: 68px !important ; BORDER-TOP: 0px !important ; BORDER-RIGHT: 0px
+}
+
+
+
+.news-en {
+	font-family: Sakkal Majalla !important ;
+	font-size: 11px !important ;
+	font-weight: bold !important ;
+	color: #5c5c5c !important ;
+	text-decoration:none !important ;
+}
+
+
+
+a.news-heading-en {
+	font-family: Sakkal Majalla !important ;
+	font-size: 12px !important ;
+	font-weight: bold !important ;
+	color: #686868 !important ;
+	text-decoration:none !important ;
+}
+.btn-primary .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+.btn-success {
+  color: #FFFFFF;
+  background-color: #669C41;
+  border-color: #4cae4c;
+    font-weight: 700;
+    font-family: "Sakkal Majalla";
+    font-size: x-large;
+}
+.btn-success:focus,
+.btn-success.focus {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+.btn-success:hover {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #398439;
+}
+.btn-success:active:hover,
+.btn-success.active:hover,
+.open > .dropdown-toggle.btn-success:hover,
+.btn-success:active:focus,
+.btn-success.active:focus,
+.open > .dropdown-toggle.btn-success:focus,
+.btn-success:active.focus,
+.btn-success.active.focus,
+.open > .dropdown-toggle.btn-success.focus {
+  color: #fff;
+  background-color: #398439;
+  border-color: #255625;
+}
+.btn-success:active,
+.btn-success.active,
+.open > .dropdown-toggle.btn-success {
+  background-image: none;
+}
+.btn-success.disabled,
+.btn-success[disabled],
+fieldset[disabled] .btn-success,
+.btn-success.disabled:hover,
+.btn-success[disabled]:hover,
+fieldset[disabled] .btn-success:hover,
+.btn-success.disabled:focus,
+.btn-success[disabled]:focus,
+fieldset[disabled] .btn-success:focus,
+.btn-success.disabled.focus,
+.btn-success[disabled].focus,
+fieldset[disabled] .btn-success.focus,
+.btn-success.disabled:active,
+.btn-success[disabled]:active,
+fieldset[di
+.btn-success {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+    margin-top: 0px;
+}
+fieldset[disabled] .btn-success.active {
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+.btn-success .badge {
+  color: #5cb85c;
+  background-color: #fff;
+}
+.btn-info {
+  color: #fff;
+  b
+.btn-success {
+  color: #000000;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+    font-weight: 700;
+    text-align: left;
+}
+  font-weight: 700;
+}
+  font-weight: 700;
+}
+r-color: #4cae4c;
+}
+border-color: #1b6d85;
+}
+.btn-info:hover {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  color: #fff;
+  background-color: #31b0d5;
+  border-color: #269abc;
+}
+.btn-info:active:hover,
+.btn-info.active:hover,
+.open > .dropdown-toggle.btn-info:hover,
+.btn-info:active:focus,
+.btn-info.active:focus,
+.open > .dropdown-toggle.btn-info:focus,
+.btn-info:active.focus,
+.btn-info.active.focus,
+.open > .dropdown-toggle.btn-info.focus {
+  color: #fff;
+  background-color: #269abc;
+  border-color: #1b6d85;
+}
+.btn-info:active,
+.btn-info.active,
+.open > .dropdown-toggle.btn-info {
+  background-image: none;
+}
+.btn-info.disabled,
+.btn-info[disabled],
+fieldset[disabled] .btn-info,
+.btn-info.disabled:hover,
+.btn-info[disabled]:hover,
+fieldset[disabled] .btn-info:hover,
+.btn-info.disabled:focus,
+.btn-info[disabled]:focus,
+fieldset[disabled] .btn-info:focus,
+.btn-info.disabled.focus,
+.btn-info[disabled].focus,
+fieldset[disabled] .btn-info.focus,
+.btn-info.disabled:active,
+.btn-info[disabled]:active,
+fieldset[disabled] .btn-info:active,
+.btn-info.disabled.active,
+.btn-info[disabled].active,
+
+
+@font-face {
+    font-family: GE SS Text Medium !important ;
+    src: url('GE SS Text Medium.otf') !important ;
+    src: url('GE SS Text Medium.ttf') !important ;
+    src: url('GE SS Text Medium.oet') !important ;
+
+}
+.kau {
+    font-family:Tahoma !important ; font-size:12pt !important ; font-weight:bold !important ;color:#2d7424 !important ; text-align:center !important ;
+}
+
+.footer {
+	background:#ffab62;
+	width:100%;
+	height:100px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}

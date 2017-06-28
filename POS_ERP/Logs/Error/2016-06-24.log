@@ -1,0 +1,94 @@
+06/24/2016 01:46:28: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\beans\CompanyBeans.cs:line 41
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)*****************************************************************************
+06/24/2016 01:46:28: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\beans\CompanyBeans.cs:line 41
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)*****************************************************************************
+06/24/2016 15:34:52: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\beans\CompanyBeans.cs:line 41
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)*****************************************************************************
+06/24/2016 15:34:52: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\beans\CompanyBeans.cs:line 41
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)*****************************************************************************
+06/24/2016 15:36:26: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\beans\CompanyBeans.cs:line 41
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)*****************************************************************************
+06/24/2016 15:36:26: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\beans\CompanyBeans.cs:line 41
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)*****************************************************************************
+06/24/2016 15:59:06: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\beans\CompanyBeans.cs:line 41
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)*****************************************************************************
+06/24/2016 15:59:06: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\beans\CompanyBeans.cs:line 41
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)*****************************************************************************
+06/24/2016 16:26:26: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Thread was being aborted.
+Source :mscorlib
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at POS_ERP.pgs.order.OrderRequest.Page_Load(Object sender, EventArgs e) in d:\projects\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 28
+TargetSite :Void AbortInternal()*****************************************************************************
+06/24/2016 16:26:26: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Thread was being aborted.
+Source :mscorlib
+Stack Trace :   at System.Threading.Thread.AbortInternal()
+   at System.Threading.Thread.Abort(Object stateInfo)
+   at System.Web.HttpResponse.End()
+   at System.Web.HttpResponse.Redirect(String url, Boolean endResponse)
+   at POS_ERP.pgs.order.OrderRequest.Page_Load(Object sender, EventArgs e) in d:\projects\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 28
+TargetSite :Void AbortInternal()*****************************************************************************

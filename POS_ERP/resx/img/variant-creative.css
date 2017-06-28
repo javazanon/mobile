@@ -1,0 +1,25 @@
+a {color:#166090; text-decoration:none; font-weight:700;}
+a:hover {color:#286ea0; text-decoration:underline;}
+a img {border:0;}
+p {margin:0 0 16px;}
+blockquote {background:url(img/menubg.gif) repeat-x bottom left #f4f4f4; border-bottom:1px solid #d8d8d8; border-left:4px solid #ccc; border-right:1px solid #d8d8d8; border-top:1px solid #d8d8d8; color:#555; margin:16px; padding:7px 7px 7px 11px;}
+blockquote p {font-size:1.1em; line-height:1.3em; margin:0;}
+
+
+/* Tabl
+
+
+/* Tables and forms */
+.table {border:1px solid #669c41; border-collapse:collapse; line-height:1.3em;margin:0px 0 16px 0; padding:0;
+    width: 38%;
+    height: 243px;
+    background-color: #d9d9d9;
+    
+}
+
+.table th {background:url(img/menubg2.gif) repeat-x bottom left #eaeaea; color:#555; padding:7px; text-align:left;}
+.table td {background:#d9d9d9 url('img/menubg.gif') repeat-x left bottom; 
+color:#303030; padding:7px; text-align:center;
+    font-family: "hacen Saudi Arabia";
+}
+

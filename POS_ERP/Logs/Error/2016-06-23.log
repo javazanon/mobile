@@ -1,0 +1,162 @@
+06/23/2016 04:31:08: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\beans\CompanyBeans.cs:line 41
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)*****************************************************************************
+06/23/2016 04:31:08: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\beans\CompanyBeans.cs:line 41
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)*****************************************************************************
+06/23/2016 04:32:21: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\beans\CompanyBeans.cs:line 41
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)*****************************************************************************
+06/23/2016 04:32:21: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\beans\CompanyBeans.cs:line 41
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)*****************************************************************************
+06/23/2016 04:32:26: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.order.OrderRequest.fillInventory() in d:\projects\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 144
+TargetSite :Void fillInventory()*****************************************************************************
+06/23/2016 04:32:26: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.order.OrderRequest.fillInventory() in d:\projects\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 144
+TargetSite :Void fillInventory()*****************************************************************************
+06/23/2016 04:32:26: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.order.OrderRequest.fillMaterialgroups() in d:\projects\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 85
+TargetSite :Void fillMaterialgroups()*****************************************************************************
+06/23/2016 04:32:26: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.order.OrderRequest.fillMaterialgroups() in d:\projects\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 85
+TargetSite :Void fillMaterialgroups()*****************************************************************************
+06/23/2016 04:32:26: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.order.OrderRequest.fillCustomerGroups() in d:\projects\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 161
+TargetSite :Void fillCustomerGroups()*****************************************************************************
+06/23/2016 04:32:26: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.order.OrderRequest.fillCustomerGroups() in d:\projects\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 161
+TargetSite :Void fillCustomerGroups()*****************************************************************************
+06/23/2016 04:32:26: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.order.OrderRequest.fillCustomers() in d:\projects\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 181
+TargetSite :Void fillCustomers()*****************************************************************************
+06/23/2016 04:32:26: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.order.OrderRequest.fillCustomers() in d:\projects\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 181
+TargetSite :Void fillCustomers()*****************************************************************************
+06/23/2016 04:32:26: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.order.OrderRequest.fillMaterial() in d:\projects\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 105
+TargetSite :Void fillMaterial()*****************************************************************************
+06/23/2016 04:32:26: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.order.OrderRequest.fillMaterial() in d:\projects\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 105
+TargetSite :Void fillMaterial()*****************************************************************************
+06/23/2016 04:32:53: *****************************************************************************
+Error in Path :/pgs/inventory/Material_C.aspx
+Raw Url :/pgs/inventory/Material_C.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.Material_C.fillMaterialGroup() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\Material_C.aspx.cs:line 72
+TargetSite :Void fillMaterialGroup()*****************************************************************************
+06/23/2016 04:32:53: *****************************************************************************
+Error in Path :/pgs/inventory/Material_C.aspx
+Raw Url :/pgs/inventory/Material_C.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.Material_C.fillMaterialGroup() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\Material_C.aspx.cs:line 72
+TargetSite :Void fillMaterialGroup()*****************************************************************************
+06/23/2016 04:33:34: *****************************************************************************
+Error in Path :/pgs/inventory/matr_mov.aspx
+Raw Url :/pgs/inventory/matr_mov.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.matr_mov.fillInventory() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\matr_mov.aspx.cs:line 50
+TargetSite :Void fillInventory()*****************************************************************************
+06/23/2016 04:33:34: *****************************************************************************
+Error in Path :/pgs/inventory/matr_mov.aspx
+Raw Url :/pgs/inventory/matr_mov.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.matr_mov.fillInventory() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\matr_mov.aspx.cs:line 50
+TargetSite :Void fillInventory()*****************************************************************************
+06/23/2016 04:33:34: *****************************************************************************
+Error in Path :/pgs/inventory/matr_mov.aspx
+Raw Url :/pgs/inventory/matr_mov.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.matr_mov.fillgroups() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\matr_mov.aspx.cs:line 74
+TargetSite :Void fillgroups()*****************************************************************************
+06/23/2016 04:33:34: *****************************************************************************
+Error in Path :/pgs/inventory/matr_mov.aspx
+Raw Url :/pgs/inventory/matr_mov.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.matr_mov.fillgroups() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\matr_mov.aspx.cs:line 74
+TargetSite :Void fillgroups()*****************************************************************************
+06/23/2016 04:33:34: *****************************************************************************
+Error in Path :/pgs/inventory/matr_mov.aspx
+Raw Url :/pgs/inventory/matr_mov.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.matr_mov.fillMaterial() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\matr_mov.aspx.cs:line 94
+TargetSite :Void fillMaterial()*****************************************************************************
+06/23/2016 04:33:34: *****************************************************************************
+Error in Path :/pgs/inventory/matr_mov.aspx
+Raw Url :/pgs/inventory/matr_mov.aspx
+Message :Object reference not set to an instance of an object.
+Source :POS_ERP
+Stack Trace :   at POS_ERP.pgs.inventory.matr_mov.fillMaterial() in d:\projects\POS_ERP\POS_ERP\pgs\inventory\matr_mov.aspx.cs:line 94
+TargetSite :Void fillMaterial()*****************************************************************************

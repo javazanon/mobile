@@ -1,0 +1,36 @@
+11/15/2014 22:37:00: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Access denied for user ''@'localhost' (using password: NO)
+Source :MySql.Data
+Stack Trace :   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.AuthenticateNew()
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at POS_ERP.com.zanon.ERP.database.ConnectionManager.getConnection() in D:\vs_2010\POS_ERP\POS_ERP\com\zanon\ERP\database\ConnectionManager.cs:line 27
+TargetSite :MySql.Data.MySqlClient.MySqlPacket ReadPacket()*****************************************************************************
+11/15/2014 22:37:00: *****************************************************************************
+Error in Path :/pgs/home/login.aspx
+Raw Url :/pgs/home/login.aspx
+Message :Access denied for user ''@'localhost' (using password: NO)
+Source :MySql.Data
+Stack Trace :   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.AuthenticateNew()
+   at MySql.Data.MySqlClient.NativeDriver.Authenticate()
+   at MySql.Data.MySqlClient.NativeDriver.Open()
+   at MySql.Data.MySqlClient.Driver.Open()
+   at MySql.Data.MySqlClient.Driver.Create(MySqlConnectionStringBuilder settings)
+   at MySql.Data.MySqlClient.MySqlPool.CreateNewPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.GetPooledConnection()
+   at MySql.Data.MySqlClient.MySqlPool.TryToGetDriver()
+   at MySql.Data.MySqlClient.MySqlPool.GetConnection()
+   at MySql.Data.MySqlClient.MySqlConnection.Open()
+   at POS_ERP.com.zanon.ERP.database.ConnectionManager.getConnection() in D:\vs_2010\POS_ERP\POS_ERP\com\zanon\ERP\database\ConnectionManager.cs:line 27
+TargetSite :MySql.Data.MySqlClient.MySqlPacket ReadPacket()*****************************************************************************

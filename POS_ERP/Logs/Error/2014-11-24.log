@@ -1,0 +1,48 @@
+11/24/2014 21:42:53: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Sequence contains no matching element
+Source :System.Core
+Stack Trace :   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at POS_ERP.pgs.order.OrderRequest.deleteRowFromShoopingCard_Click(Object sender, EventArgs e) in D:\vs_2010\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 199
+TargetSite :TSource Single[TSource](System.Collections.Generic.IEnumerable`1[TSource], System.Func`2[TSource,System.Boolean])*****************************************************************************
+11/24/2014 21:42:53: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Sequence contains no matching element
+Source :System.Core
+Stack Trace :   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at POS_ERP.pgs.order.OrderRequest.deleteRowFromShoopingCard_Click(Object sender, EventArgs e) in D:\vs_2010\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 199
+TargetSite :TSource Single[TSource](System.Collections.Generic.IEnumerable`1[TSource], System.Func`2[TSource,System.Boolean])*****************************************************************************
+11/24/2014 21:48:45: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Sequence contains no matching element
+Source :System.Core
+Stack Trace :   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at POS_ERP.pgs.order.OrderRequest.deleteRowFromShoopingCard_Click(Object sender, EventArgs e) in D:\vs_2010\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 199
+TargetSite :TSource Single[TSource](System.Collections.Generic.IEnumerable`1[TSource], System.Func`2[TSource,System.Boolean])*****************************************************************************
+11/24/2014 21:48:45: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Sequence contains no matching element
+Source :System.Core
+Stack Trace :   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at POS_ERP.pgs.order.OrderRequest.deleteRowFromShoopingCard_Click(Object sender, EventArgs e) in D:\vs_2010\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 199
+TargetSite :TSource Single[TSource](System.Collections.Generic.IEnumerable`1[TSource], System.Func`2[TSource,System.Boolean])*****************************************************************************
+11/24/2014 21:52:08: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Sequence contains no matching element
+Source :System.Core
+Stack Trace :   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at POS_ERP.pgs.order.OrderRequest.deleteRowFromShoopingCard_Click(Object sender, EventArgs e) in D:\vs_2010\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 199
+TargetSite :TSource Single[TSource](System.Collections.Generic.IEnumerable`1[TSource], System.Func`2[TSource,System.Boolean])*****************************************************************************
+11/24/2014 21:52:08: *****************************************************************************
+Error in Path :/pgs/order/OrderRequest.aspx
+Raw Url :/pgs/order/OrderRequest.aspx
+Message :Sequence contains no matching element
+Source :System.Core
+Stack Trace :   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source, Func`2 predicate)
+   at POS_ERP.pgs.order.OrderRequest.deleteRowFromShoopingCard_Click(Object sender, EventArgs e) in D:\vs_2010\POS_ERP\POS_ERP\pgs\order\OrderRequest.aspx.cs:line 199
+TargetSite :TSource Single[TSource](System.Collections.Generic.IEnumerable`1[TSource], System.Func`2[TSource,System.Boolean])*****************************************************************************

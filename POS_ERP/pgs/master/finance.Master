@@ -1,0 +1,70 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="finance.master.cs" Inherits="FinancialSystem.master.finance" %>
+
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title><%= Page.Title %></title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport" />
+    <!-- Bootstrap 3.3.6 -->
+    <link rel="stylesheet" href="../../resx/css/bootstrap.min.css" />
+    <script src="../../resx/js/jquery-1.7.1.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="../../resx/css/font-awesome.css" />
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="../../resx/css/ionicons.min.css" />
+
+    <!-- Theme style -->
+    <link rel="stylesheet" href="../../resx/css/AdminLTE.min.css" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+       folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="../../resx/css/skins/_all-skins.min.css" />
+
+
+</head>
+<body dir="rtl">
+    <form id="Form1" runat="server" >
+
+        <telerik:RadStyleSheetManager ID="RadStyleSheetManager1" runat="server"/>
+       <telerik:RadScriptManager runat="server" ID="RadScriptManager1" />
+        <telerik:RadSkinManager ID="QsfSkinManager" runat="server"  />
+        <telerik:RadFormDecorator ID="QsfFromDecorator" runat="server" 
+        DecoratedControls="All" EnableRoundedCorners="False" />
+        <telerik:RadAjaxManager ID="RadAjaxManager1" runat="server">
+            <AjaxSettings>
+                <telerik:AjaxSetting AjaxControlID="RadGrid1">
+                    <UpdatedControls>
+                        <telerik:AjaxUpdatedControl ControlID="RadGrid1"></telerik:AjaxUpdatedControl>
+                    </UpdatedControls>
+                </telerik:AjaxSetting>
+            </AjaxSettings>
+        </telerik:RadAjaxManager>
+        <div class="panel panel-default" style="min-height: 600px; min-width: 800px; text-align: center">
+            <div class="panel-heading">
+                <asp:Image ID="Image1" runat="server" ImageUrl="~/resx/img/header.png" Width="100%" Height="100px"></asp:Image>
+            </div>
+            <div class="panel-heading">
+                <telerik:RadMenu ID="RadMenu1" runat="server" EnableRoundedCorners="true" EnableShadows="true"  />
+            </div>
+            <div class="panel-body" style="min-height: 500px; min-width: 800px">
+                <div class="well" style="min-height: 500px; min-width: 800px">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                            <ContentTemplate>
+                            </ContentTemplate>
+                        </asp:UpdatePanel>
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <div class="panel-footer">
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/resx/img/footer.jpg" Height="35px" Width="100%" />
+            </div>
+        </div>
+    </form>
+</body>
+</html>

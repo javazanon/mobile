@@ -1,0 +1,218 @@
+﻿
+	
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/DroidKufi-Regular.eot');
+  src: url('../fonts//DroidKufi-Regular.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/DroidKufi-Regular.woff2') format('woff2'),
+       url('../fonts/DroidKufi-Regular.woff') format('woff'),
+       url('../fonts/DroidKufi-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'DroidArabicKufiBold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/DroidKufi-Bold.eot');
+  src: url('../fonts/DroidKufi-Bold.eot?#iefix') format('embedded-opentype'),
+       url('../fonts/DroidKufi-Bold.woff2') format('woff2'),
+       url('../fonts/DroidKufi-Bold.woff') format('woff'),
+       url('../fonts/DroidKufi-Bold.ttf') format('truetype');
+}
+body {
+    font-family:'Droid Arabic Kufi';
+}
+ .MasterHeader
+        {
+
+        }
+    .MasterHeader .MasterHeaderTitle {
+        background-color: #377400;
+        background-color: #377400;
+        height: 40px;
+        padding-top: 8px;
+        color: white;
+        text-align: center;
+        font-family: 'DroidArabicKufiBold';
+    }
+
+/*#region Menu */
+
+
+
+.navbar-default {
+    background-color: white;
+    height: 40px;
+}
+
+.btn-sidebar {
+    margin-top: 3px;
+    margin-left: -10px;
+    background-color: #43adb9;
+}
+
+.image_brand {
+    padding-top: 5px;
+}
+
+.btn-sidebar:hover {
+    margin-top: 3px;
+    margin-left: -10px;
+    opacity: 0.8;
+}
+
+.xs-menu-left {
+    right: 0;
+    left: auto;
+}
+
+#main-header {
+    background-color: white;
+    border-bottom: 1px solid grey;
+}
+
+.header-top {
+    border-bottom: 0px solid grey;
+}
+
+.header-bottom {
+    background-color: white;
+}
+
+.navbar-kanan {
+    float: right;
+}
+
+.navbar-kiri {
+    margin-left: -25px;
+}
+
+.navbar-date {
+    font-size: 20px;
+    vertical-align: middle;
+    line-height: 1px;
+}
+
+.nav > li:hover {
+    opacity: 0.8;
+}
+
+#bottom_menu li > a {
+    margin-right: 3px;
+    color: #ad3434;
+}
+
+    #bottom_menu li > a:hover {
+        background-color: #fa7c00 !important;
+        color: white;
+    }
+
+.round_text {
+    border-radius: 100%;
+    border: 1px solid #FFF;
+    max-width: 50px;
+    padding: 5px;
+    margin-right: 3px;
+}
+
+.red_date {
+    background-color: #b74635 !important;
+}
+
+.blue_date {
+    background-color: #6fb3e0 !important;
+}
+
+.green_date {
+    background-color: #87b87f !important;
+}
+
+.grey > a {
+    background-color: #4b4b4b !important;
+    
+    color: white;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+.purple > a {
+    background-color: #762c59 !important;
+    color: white !important;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+.green > a {
+    background-color: #2c7659 !important;
+    color: white !important;
+    ;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+.red > a {
+    background-color: #763930;
+    color: white;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+.light-blue > a {
+    background-color: #fa7c00 !important;
+    color: white;
+    -webkit-border-radius: 0px !important;
+    -moz-border-radius: 0px !important;
+    border-radius: 0px !important;
+}
+
+.user-info {
+    max-width: 100px;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-align: left;
+    vertical-align: top;
+    position: relative;
+}
+
+.nav-user-photo {
+    margin: -12px 0 -10px -10px;
+    border-radius: 100%;
+    border: 2px solid #FFF;
+    max-width: 50px;
+}
+
+@media (max-width: 767px) {
+    .xs_color {
+        background-color: #38789c;
+        padding-top: 3px;
+    }
+
+    .navbar-kanan {
+        float: none !important;
+        margin-left: -10px;
+    }
+
+    .navbar-kiri {
+        margin-left: -5px;
+    }
+
+    .btn-sidebar {
+        margin-left: -10px;
+    }
+}
+
+/*#endregion */
+
+@media only screen and (max-width: 1024px) and (max-height: 768px) {
+    .MasterHeader .MasterHeaderTitle
+    {
+        height:auto;
+    }
+}

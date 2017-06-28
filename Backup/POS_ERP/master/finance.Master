@@ -1,0 +1,115 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="finance.master.cs" Inherits="FinancialSystem.master.finance" %>
+<%@ Register Assembly="Telerik.Web.UI" Namespace="Telerik.Web.UI" TagPrefix="telerik" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link rel="stylesheet" type="text/css" href="../css/Site.css" />
+     <!-- modernizr enables HTML5 elements and feature detects -->
+  <script type="text/javascript" src="js/modernizr-1.5.min.js"></script>
+    <style type="text/css">
+        .menuefont
+            {
+                font-family: Tahoma;
+                font-size: medium;
+            }
+        
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    color: White;
+	margin-left: 0px;
+}
+
+
+
+.bold
+{
+    font-weight: bold;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+
+a:link, a:visited
+{
+    color: #FFFFCC;
+    font-weight: bold;
+    text-decoration: none;
+}
+    </style>
+</head>
+<body>
+    <form id="Form1" runat="server" align="center">
+<div align="center">
+
+      <div id="logo" align="center">
+        <div id="logo_text" align="center">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <table>
+                    <tr>
+                        
+                        <td align="center">
+                            <asp:Image ID="Image1" runat="server" 
+                                ImageUrl="~/images/header_finance.jpg" Width="900px"></asp:Image>
+                        </td>
+                    </tr>
+                    <tr>
+                        
+                        <td align="center">
+                            <asp:Image ID="Image3" runat="server" 
+                                ImageUrl="~/Styles/Images/footer_h.PNG" Width="900px" Height="30px"></asp:Image>
+                        </td>
+                    </tr>
+                </table>
+        </div>
+      </div>
+     <div style="width: 900px">
+          <div class="loginDisplay" align="right">
+                                                          <table class="style1">
+                                                    <tr>
+                                                        <td align="right"> 
+                                                        
+                                                        <telerik:RadMenu ID="RadMenu1" runat="server" EnableRoundedCorners="true" EnableShadows="true" /> </td>
+                                                    </tr>
+                                                </table>
+
+                            </div>
+     </div>
+
+    <div id="site_content" align="center"
+          style="height: auto; background-color: #FFFFFF; width: 900px;height:500px" dir="rtl">
+       <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                                                    <ContentTemplate>
+                            
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+        </asp:ContentPlaceHolder>
+
+      </div>
+
+
+       <div id= "footer" align="center">
+                      <asp:Image ID="Image2" runat="server" 
+                          ImageUrl="~/Styles/Images/footer_1.PNG" Height="35px" Width="900px" />
+      
+    
+   
+       </div>
+    </div>
+
+       
+  
+    </form>
+   </body>
+</html>

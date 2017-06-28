@@ -1,0 +1,509 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+body
+{
+    /*background: #b6b7bc;*/
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background-attachment: fixed;
+    font-weight: bold;
+    background-color: #DFDFDF;
+}
+
+#top
+{
+    height: 20px;
+    width: 980px;
+    background-color: #004F00;
+    margin-right: auto;
+    margin-left: auto;
+}
+.HyperLinkImageSize
+{
+    border:none;
+    -moz-box-shadow:    0px 0px 20px Gray;
+    -webkit-box-shadow: 0px 0px 20px Gray;
+}
+#hedar
+{
+    margin-right: auto;
+    margin-left: auto;
+    width: 980px;
+    height:134px;
+    background-image: url('../Pic/hedar.png');
+}
+
+
+#footer
+{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: url('../Pic/footer.png');
+    height: 27px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bold;
+    padding-top: 8px;
+    font-size: 14
+}
+
+
+a:link, a:visited
+{
+    color: #FFFFCC;
+    font-weight: bold;
+    text-decoration: none;
+}
+/*#*/
+a:hover
+{
+    color: #006600;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+default a:link, a:visited
+{
+    width:50%;
+}
+
+
+
+/*#menu
+{
+    width: 800px;
+}*/
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+
+.hedar
+{
+    padding: 0px;
+    border-style: none;
+    width: 95%;
+    margin: 20px auto 0px auto;
+    height: 138px;
+}
+
+.page
+{
+    width: 95%;
+   /* background-color: #fff; */
+    margin: 0px auto 0px auto;
+}
+
+.header
+{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+    background-image: none;
+}
+
+.header h1
+{
+    border-style: none;
+	border-color: inherit;
+	border-width: medium;
+	font-weight: 700;
+    margin: 0px;
+    padding: 0px 0px 0px 0px;
+    color: #f9f9f9;
+    line-height: 2em;
+    font-size: 2em;
+    text-align :center;
+}
+
+.main
+{
+    padding: 0px 0px;
+    margin: 0px 0px 0px 0px;
+    min-height: 420px;
+    background-color: #FFF;
+   
+}
+
+
+.leftCol
+{
+    padding: 6px 0px;
+    margin: 12px 8px 8px 8px;
+    width: 20%;
+    min-height: 200px;
+}
+
+
+
+/* TAB MENU   
+----------------------------------------------------------*/
+.menu
+{
+   text-align:right;
+    direction:rtl;
+}
+div.hideSkiplink
+{
+    /*background-color:#3a4f63;*/
+    /*width: 960px;*/
+    background-color: #424242;
+}
+
+div.menu
+{
+    padding: 0px 0px 2px 0px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    /*background-color: #465c71;*/
+    background-color: #666666; /*border: 1px #4e667d solid;*/
+    border: 1px solid #808080;
+    color: #FFFFCC;
+    
+    line-height: 1.35em;
+  
+    text-decoration: none;
+   
+    font-weight: bold;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #006600;
+    color: #FFCC66;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}
+
+/*.hyper a:active
+{
+    
+     background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+
+}
+
+.hyper a:hover
+{
+        background-color: #006600;
+    color: #FFCC66;
+    text-decoration: none;
+    font-weight: bold;
+    
+    }*/
+.hyper 
+{
+        background-color: #666666; /*border: 1px #4e667d solid;*/
+    border: 1px solid #808080;
+    color: #FFFFCC;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 20px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+/* FORM ELEMENTS   
+----------------------------------------------------------*/
+
+fieldset
+{
+    margin: 1em 0px;
+    padding: 1em;
+    border: 1px solid #ccc;
+}
+
+fieldset p 
+{
+    margin: 2px 12px 10px 10px;
+}
+
+fieldset.login label, fieldset.register label, fieldset.changePassword label
+{
+    display: block;
+}
+
+fieldset label.inline 
+{
+    display: inline;
+}
+
+legend 
+{
+    font-size: 1.1em;
+    font-weight: 600;
+    padding: 2px 2px 8px 2px;
+}
+
+input.textEntry 
+{
+    width: 320px;
+    border: 1px solid #ccc;
+}
+
+input.passwordEntry 
+{
+    width: 40%;
+    border: 1px solid #ccc;
+}
+
+div.accountInfo
+{
+    width: 42%;
+}
+
+/* MISC  
+----------------------------------------------------------*/
+
+.clear
+{
+    clear: both;
+}
+
+.title
+{
+    width: auto;
+}
+
+.loginDisplay
+{
+    font-size: 1.1em;
+    display: block;
+    color: White;
+	margin-left: 0px;
+}
+
+.loginDisplay a:link
+{
+    color: white;
+}
+
+.loginDisplay a:visited
+{
+    color: white;
+}
+
+
+
+.bold
+{
+    font-weight: bold;
+}
+
+.submitButton
+{
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* Contents 
+----------------------------------------------------------*/
+#Contents
+{
+    text-align: center;
+}
+.List
+{
+    margin: 5px auto 15px auto;
+    width: 980px;
+}
+
+.c1
+{
+    background-color: #FFF;
+    background-image: url('../Pic/Corner/c_left_t.gif');
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    width: 100%;
+}
+.c2 {
+	background-image: url('../Pic/Corner/c_right_t.gif');
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.c3 {
+	background-image: url('../Pic/Corner/c_left_b.gif');
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+.c4
+{
+    background-image: url('../Pic/Corner/c_right_b.gif');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 7px;
+}
+
+
+/* LOGIN   
+----------------------------------------------------------*/
+.Button{
+	width: 219px;
+	height: 82px;
+	margin-top: 20px;
+	float: left;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.Message{
+	padding-right: 20px;
+	float: right;
+	width: 325px;
+	height: 64px;
+	margin-top: 25px;
+	margin-right: 60px;
+}
+
+
+.info
+{
+    padding-right: 200px;
+    padding-top: 238px;
+}
+
+.Tit
+{
+    text-align: center;
+}
+
+.Register
+{
+    padding-right: 200px;
+    padding-top: 230px;
+}
+
+.taple_login
+{
+    display: none;
+}
+
+.pass
+{
+    margin-right: 80px;
+    margin-top: 15px;    
+}
+
+/* MENU   
+----------------------------------------------------------*/
+div.menu
+{
+    padding: 0px 0px 2px 0px;
+}
+
+div.menu ul
+{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+div.menu ul li a, div.menu ul li a:visited
+{
+    /*background-color: #465c71;*/
+    background-color: #666666; /*border: 1px #4e667d solid;*/
+    border: 1px solid #808080;
+    color: #FFFFCC;
+    display: block;
+    line-height: 1.35em;
+    padding: 4px 43px;
+    text-decoration: none;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+div.menu ul li a:hover
+{
+    background-color: #006600;
+    color: #FFCC66;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+div.menu ul li a:active
+{
+    background-color: #465c71;
+    color: #cfdbe6;
+    text-decoration: none;
+}

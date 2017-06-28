@@ -1,0 +1,58 @@
+10/14/2016 21:47:51: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\database\model\CompanyBeans.cs:line 42
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)
+***********************
+10/14/2016 21:47:51: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Column 'telephone' does not belong to table .
+Source :System.Data
+Stack Trace :   at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at POS_ERP.com.zanon.ERP.beans.CompanyBeans.getAllCompany(String sql, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\database\model\CompanyBeans.cs:line 42
+TargetSite :System.Data.DataColumn GetDataColumn(System.String)
+***********************
+10/14/2016 21:47:51: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Column 'ID' in field list is ambiguous
+Source :MySql.Data
+Stack Trace :   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at POS_ERP.com.zanon.ERP.database.connection.ConnectionManager.select(String query, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\database\connection\ConnectionManager.cs:line 72
+TargetSite :MySql.Data.MySqlClient.MySqlPacket ReadPacket()
+***********************
+10/14/2016 21:47:51: ******************************
+Error in Path :/pgs/account/login.aspx
+Raw Url :/pgs/account/login.aspx
+Message :Column 'ID' in field list is ambiguous
+Source :MySql.Data
+Stack Trace :   at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int32& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at POS_ERP.com.zanon.ERP.database.connection.ConnectionManager.select(String query, Dictionary`2 parameters) in d:\projects\POS_ERP\POS_ERP\com\zanon\ERP\database\connection\ConnectionManager.cs:line 72
+TargetSite :MySql.Data.MySqlClient.MySqlPacket ReadPacket()
+***********************

@@ -1,0 +1,143 @@
+
+html { 
+  height: 600px;
+}
+
+* { 
+  margin: 0;
+  padding: 0;
+	width: 759px;
+}
+
+/* tell the browser to render HTML 5 elements as block */
+article, aside, figure, footer, header, hgroup, nav, section { 
+  display:block;
+}
+
+body
+{
+    font: normal .80em arial, sans-serif;
+    background: #188A10 url('../images/Background.jpg') no-repeat fixed center;
+    
+}
+
+p { 
+  padding: 0 0 20px 0;
+  line-height: 1.7em;
+	width: 900px;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 { 
+  color: #362C20;
+  letter-spacing: 0em;
+  padding: 0 0 5px 0;
+}
+
+h1, h2, h3 { 
+  font: normal 100% arial, sans-serif;
+  margin: 0 0 -5px 0;
+  padding: 15px 0 5px 0;
+  color: White;
+}
+
+h2 { 
+  font-size: 160%;
+  padding: 9px 0 5px 0;
+  color: #F67F00;
+}
+
+h3 { 
+  font-size: 140%;
+  padding: 5px 0 0 0;
+}
+
+h4, h6 { 
+  color: #F67F00;
+  padding: 0 0 5px 0;
+  font: normal 150% 'Yanone kaffeesatz', arial, sans-serif;
+}
+
+h5, h6 { 
+  color: #555;
+  font: italic 95% arial, sans-serif;
+  letter-spacing: normal;
+  padding: 0 0 15px 0;
+}
+
+
+blockquote { 
+  margin: 20px 0; 
+  padding: 10px 20px 0 20px;
+  border: 1px solid #E5E5DB;
+  background: #FFF;
+}
+
+
+
+.center { 
+  display: block;
+  text-align: center;
+  margin: 20px auto;
+}
+
+
+
+#main
+{
+    float:none;
+    text-align: center;
+    width: 900px;
+    background: transparent;
+   
+}
+
+header 
+{ 
+  background: transparent;
+  height: 179px;
+}
+
+#logo { 
+  width: 900px;
+  height: 120px;
+  background: transparent;
+  color: #888;
+   font: 125% 'News Cycle', arial, sans-serif;
+}
+
+
+#logo_text h1 a .logo_colour { 
+  color: #09D4FF;
+}
+
+#logo_text a:hover .logo_colour { 
+  color: #FFF; 
+}
+
+#logo_text h2 { 
+  font-size: 140%;
+ 
+}
+
+#site_content { 
+  width: 900px;
+  overflow: hidden;
+  padding-top: 4px;
+} 
+
+
+.content { 
+   padding-top: 4px;
+ 
+  font-size: 120%;
+  
+}
+  
+.footer
+{
+    padding-top: 5px;
+    width: 900px;
+    height: 40px; 
+}

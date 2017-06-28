@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Menu>
+  <Group>
+
+    <Item Text="خروج"  >
+      <Group >
+        <Item Text="الخروج من النظام" NavigateUrl="~/pgs/home/logout.aspx"/>
+       
+      </Group>
+    </Item>
+    <Item Text="مساعده"  >
+      <Group >
+        <Item Text="حول النظام" />
+        <Item IsSeparator="True" />
+        <Item Text="دليل الاستخدام" />
+      </Group>
+    </Item>
+    <Item Text="نظام المعلومات"  >
+      <Group >
+        <Item Text="المبيعات" />
+        <Item IsSeparator="True" />
+        <Item Text="الفواتير" />
+        <Item IsSeparator="True" />
+        <Item Text="حركة الاصناف" />
+        <Item IsSeparator="True" />
+        <Item Text="حركة الصندوق" />
+      </Group>
+    </Item>
+   
+    <Item Text="المستودعات"  >
+      <Group >
+        <Item Text="الاصناف" >
+          <Group >
+            <Item Text="حركة صنف" NavigateUrl="~/pgs/inventory/matr_mov.aspx"/>
+            <Item IsSeparator="True" />
+            <Item Text="كارت الاصناف" NavigateUrl="~/pgs/inventory/material_card.aspx"/>
+            <Item IsSeparator="True" />
+          </Group >
+        </Item>
+        <Item Text="المخازن" >
+          <Group >
+            <Item Text="جرد المخازن" />
+            <Item IsSeparator="True" />
+            <Item Text="الارصدة الافتتاحية" />
+            <Item IsSeparator="True" />
+          </Group >
+        </Item>
+      </Group>
+    </Item>
+    <Item Text="ادارة النظام"  >
+      <Group >
+        <Item Text="المستودعات" >
+          <Group >
+            <Item Text="انشاء مخزن" />
+            <Item IsSeparator="True" />
+            <Item Text="المخازن"  />
+          </Group >
+        </Item>
+        <Item Text="الاصناف" >
+          <Group >
+            <Item Text="انشاء صنف" NavigateUrl="~/pgs/inventory/Material_C.aspx"/>
+            <Item IsSeparator="True" />
+            <Item Text="تسعير الصنف" NavigateUrl="~/pgs/inventory/material_price.aspx"/>
+            <Item IsSeparator="True" />
+          </Group >
+        </Item>
+        <Item Text="المخازن" >
+          <Group >
+            <Item Text="جرد المخازن" />
+            <Item IsSeparator="True" />
+            <Item Text="الارصدة الافتتاحية" />
+            <Item IsSeparator="True" />
+          </Group >
+        </Item>
+      </Group>
+      
+        <Item Text="الموردين">
+          <Group >
+            <Item Text="انشاء مورد" />
+            <Item IsSeparator="True" />
+            <Item Text="تعديل مورد" />
+            <Item IsSeparator="True" />
+          </Group >
+        </Item>
+        <Item Text="العملاء" >
+          <Group >
+            <Item Text="انشاء عميل" />
+            <Item IsSeparator="True" />
+            <Item Text="تعديل عميل" />
+            <Item IsSeparator="True" />
+          </Group >
+        </Item>
+        <Item Text="الفترات الماليه" >
+          <Group >
+            <Item Text="انشاء سنة مالية" />
+            <Item IsSeparator="True" />
+            <Item Text="انشاء الفترات الماليه" />
+            <Item IsSeparator="True" />
+          </Group >
+        </Item>
+    </Item>
+    <Item Text="الفواتير"  >
+      <Group >
+        <Item Text="فاتورة جديدة" />
+        <Item IsSeparator="True" />
+        <Item Text="تعديل فاتورة" />
+      </Group>
+    </Item>
+    <Item Text="المبيعات">
+      <Group >
+        <Item Text="طلب بيع" NavigateUrl="~/pgs/order/OrderRequest.aspx"/>
+        <Item IsSeparator="True" />
+        <Item Text="تعديل طلب" />
+        <Item IsSeparator="True" />
+        <Item Text="استعلام" />
+        <Item IsSeparator="True" />
+      </Group>
+    </Item>
+   
+    
+ </Group>
+</Menu>
